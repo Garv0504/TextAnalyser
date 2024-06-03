@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About(props) {
     return (
-        <div classNameName="container">
+        <div className="container">
             <h1 className={`text-${props.mode==='dark'?'light':'dark'}`}>About us</h1>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
